@@ -7,8 +7,7 @@ function jsx(node, props) {
 
   for (let name in props) {
     if (name !== 'children') node.setAttribute(name, props[name])
-
-    Array.isArray(props.children)
+    else Array.isArray(props.children)
       ? node.append(...props.children)
       : node.append(props.children)
   }
