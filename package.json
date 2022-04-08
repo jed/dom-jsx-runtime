@@ -2,7 +2,8 @@
   "name": "dom-jsx-runtime",
   "version": "1.0.1",
   "description": "A tiny library that turns JSX into DOM operations",
-  "main": "jsx-runtime.js",
+  "type": "module",
+  "module": "./jsx-runtime.js",
   "scripts": {
     "test": "deno test"
   },
