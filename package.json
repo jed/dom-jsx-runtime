@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/jed/dom-jsx-runtime/issues"
   },
-  "homepage": "https://github.com/jed/dom-jsx-runtime#readme"
+  "homepage": "https://github.com/jed/dom-jsx-runtime#readme",
+  "exports": {
+    "./jsx-runtime": {
+      "browser": "./jsx-runtime.js",
+      "import": "./jsx-runtime.js"
+    }
+  }
 }
