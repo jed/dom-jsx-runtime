@@ -1,0 +1,19 @@
+{
+  "name": "dom-jsx-runtime",
+  "version": "1.0.0",
+  "description": "A tiny library that turns JSX into DOM operations",
+  "main": "jsx-runtime.js",
+  "scripts": {
+    "test": "deno test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jed/dom-jsx-runtime.git"
+  },
+  "author": "Jed Schmidt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jed/dom-jsx-runtime/issues"
+  },
+  "homepage": "https://github.com/jed/dom-jsx-runtime#readme"
+}
