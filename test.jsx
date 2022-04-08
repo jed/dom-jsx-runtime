@@ -7,7 +7,7 @@ let dom =
     <head>
       <title>dom-jsx-runtime</title>
     </head>
-    <body>A tiny library that turns JSX into DOM operations</body>
+    <body>A tiny library that turns {'JSX'} into {'DOM'} operations</body>
   </html>
 
 let source = dom.outerHTML
