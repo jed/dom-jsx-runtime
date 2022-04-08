@@ -19,6 +19,8 @@ In Deno, for example, your `deno.json` file should look like this:
 
 ## Example
 
+From [the test](./test.jsx), run via `deno test`:
+
 ```jsx
 import {assertEquals} from 'https://deno.land/std/testing/asserts.ts'
 import {DOMParser} from 'https://deno.land/x/deno_dom/deno-dom-wasm.ts'
