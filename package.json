@@ -1,6 +1,6 @@
 {
   "name": "dom-jsx-runtime",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A tiny library that turns JSX into DOM operations",
   "type": "module",
   "module": "./jsx-runtime.js",
